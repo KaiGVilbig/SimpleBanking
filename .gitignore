@@ -1,1 +1,76 @@
-.vs
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# NuGet v3
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework Core
+Migrations/
+*.efcore
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userprefs
+
+# Logs
+*.log
+logs/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.pidb
+
+# Dotnet tool directories
+.tools/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider cache
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
