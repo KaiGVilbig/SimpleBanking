@@ -1,11 +1,10 @@
-namespace Banking.UnitTests
-{
-    public class UnitTest1
-    {
-        [Fact]
-        public void Test1()
-        {
+using Xunit;
 
-        }
+public class AccountTests
+{
+    [Fact]
+    public void DummyTest()
+    {
+        Assert.True(true);
     }
 }
